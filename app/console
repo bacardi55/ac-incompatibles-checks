@@ -1,0 +1,13 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__.'/../vendor/autoload.php';
+
+use Bacardi55\ACIMFBundle\Command\FindCommand;
+
+use Symfony\Component\Console\Application;
+
+$application = new Application();
+$application->add(new FindCommand);
+$application->run();
+
