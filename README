@@ -1,0 +1,13 @@
+
+## Description
+
+This small code look into a docroot and try to find incompatible modules in your code.
+
+The incompatible module lists is loaded from:
+https://docs.acquia.com/articles/module-incompatibilities-acquia-cloud
+https://docs.acquia.com/articles/module-list-acquia-cloud-caution
+
+
+## Usage
+
+php app/console ACIMF:find /path/to/code/base
